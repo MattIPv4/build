@@ -10,6 +10,10 @@
 
 - name: upgrade installed packages
   apt:
+    update_cache: yes
+
+- name: upgrade installed packages
+  apt:
     upgrade: dist
     update_cache: yes
 
