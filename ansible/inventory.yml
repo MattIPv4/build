@@ -133,7 +133,6 @@ hosts:
         smartos18-x64-3: {ip: 165.225.151.114}
         smartos18-x64-4: {ip: 165.225.149.13}
         ubuntu1604_arm_cross-x64-1: {ip: 165.225.149.35, user: ubuntu}
-        ubuntu1804_arm_cross-x64-1: {ip: 165.225.149.157, user: ubuntu}
         ubuntu1804_docker-x64-1: {ip: 165.225.151.201, user: ubuntu}
         ubuntu1804-x64-1: {ip: 165.225.149.88, user: ubuntu}
 

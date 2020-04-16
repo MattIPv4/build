@@ -1,14 +1,11 @@
 # create CC, CXX, CC_host and CXX_host environment variables appropriate for the
 # worker label in use. Of the form: cross-compiler-ubuntu1[68]04-armv[67]-gcc-(4\.9.4?|6|8)
 
-# Possible labels:
+# Expected labels:
 # cross-compiler-ubuntu1604-armv6-gcc-4.9.4
 # cross-compiler-ubuntu1604-armv7-gcc-4.9.4
-# cross-compiler-ubuntu1604-armv6-gcc-6
 # cross-compiler-ubuntu1604-armv7-gcc-6
-# cross-compiler-ubuntu1804-armv6-gcc-6
 # cross-compiler-ubuntu1804-armv7-gcc-6
-# cross-compiler-ubuntu1804-armv6-gcc-8
 # cross-compiler-ubuntu1804-armv7-gcc-8
 
 rpi_newer_tools_base="/opt/raspberrypi/rpi-newer-crosstools/"
